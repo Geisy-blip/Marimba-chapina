@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Marimba Chapina</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: orange;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    nav {
+      background-color: #ffa500;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .imagenes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .imagenes img {
+      width: 200px;
+      height: auto;
+      border: 2px solid orange;
+      border-radius: 8px;
+    }
+
+    iframe {
+      display: block;
+      margin: 0 auto 30px;
+      max-width: 100%;
+    }
+
+    form {
+      background-color: #fff3e0;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      margin: 0 auto;
+      border: 2px solid orange;
+    }
+
+    form label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      margin-top: 15px;
+      background-color: orange;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: darkorange;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #ffa500;
+      color: white;
+      padding: 10px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Marimba Chapina</header>
+
+  <nav>
+    <a href="https://es.wikipedia.org/wiki/Marimba" target="_blank">¿Qué es la Marimba?</a>
+    <a href="https://www.youtube.com/results?search_query=marimba+chapina" target="_blank">Videos de Marimba</a>
+  </nav>
+
+  <section>
+    <h2>Galería de Marimbas Guatemaltecas</h2>
+    <div class="imagenes">
+      <img src="https://conap.gob.gt/wp-content/uploads/2022/02/02-web-de-CONAP.jpeg" alt="Marimba 1">
+      <img src="https://i0.wp.com/mingob.gob.gt/wp-content/uploads/2024/02/ffa359aa-ca47-43ce-b010-6e0145e40ebb-1024x682.jpeg?ssl=1" alt="Marimba 2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPt-FWe_VVIlI1Z_Kh7N-l2OE5xegBYLOTpw&s" alt="Marimba 3">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpr2nN3OcIaGcvL0S1YJI_0wE5ggmvREw3fg&s" alt="Marimba 4">
+    </div>
+
+    <h2>Video destacado</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/n8UYqJrjE4c" 
+            title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+    <h2>Formulario de contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="pasatiempos">Pasatiempos:</label>
+      <textarea id="pasatiempos" name="pasatiempos" rows="2"></textarea>
+
+      <label for="melodia">Melodía favorita:</label>
+      <input type="text" id="melodia" name="melodia">
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Marimba Chapina. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
